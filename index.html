@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chima Ben - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="site-header">
+            <div class="logo">
+                <h1>Chima Ben</h1>
+                <span>Web Developer & UI/UX Engineer</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content Area & Sidebar (Grid Layout) -->
+        <main class="main-content-grid">
+            <section id="portfolio" class="portfolio-section">
+                <h2>Featured Projects</h2>
+                <!-- Portfolio Cards (Flexbox Layout) -->
+                <div class="portfolio-cards">
+                    <div class="card">
+                        <!-- SVG for a code editor -->
+                        <div class="card-icon" aria-label="Code Editor Icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                        </div>
+                        <h3>E-commerce Platform</h3>
+                        <p>Developed a full-stack e-commerce solution with dynamic product listings and secure payment integration.</p>
+                    </div>
+                    <div class="card">
+                        <!-- SVG for a browser window -->
+                        <div class="card-icon" aria-label="Browser Icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2" ry="2"/><path d="M8 8H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-2"/><circle cx="12" cy="12" r="3"/><line x1="16" y1="8" x2="16" y2="8"/></svg>
+                        </div>
+                        <h3>API Integration Project</h3>
+                        <p>Built a data visualization dashboard by integrating and parsing data from multiple external APIs.</p>
+                    </div>
+                    <div class="card">
+                        <!-- SVG for a mobile phone -->
+                        <div class="card-icon" aria-label="Mobile Device Icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                        </div>
+                        <h3>Mobile App UI Kit</h3>
+                        <p>Designed and developed a reusable component library for a mobile application, focusing on responsive design.</p>
+                    </div>
+                    <div class="card">
+                        <!-- SVG for a database -->
+                        <div class="card-icon" aria-label="Database Icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 20 0A10 10 0 0 0 12 2z"/><path d="M12 16c-3.31 0-6-1.34-6-3s2.69-3 6-3 6 1.34 6 3-2.69 3-6 3z"/><path d="M12 18c-3.31 0-6 1.34-6 3s2.69 3 6 3 6-1.34 6-3-2.69-3-6-3z"/></svg>
+                        </div>
+                        <h3>Authentication System</h3>
+                        <p>Created a robust user authentication and authorization system using Node.js and a NoSQL database.</p>
+                    </div>
+                    <div class="card">
+                        <!-- SVG for a portfolio -->
+                        <div class="card-icon" aria-label="Portfolio Icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2z"/><path d="M22 14H2M8 22V14M16 22V14M22 6H2"/></svg>
+                        </div>
+                        <h3>Personal Portfolio Redesign</h3>
+                        <p>A personal redesign project focusing on modern UI/UX principles and performance optimization.</p>
+                    </div>
+                    <div class="card">
+                        <!-- SVG for a gears/settings -->
+                        <div class="card-icon" aria-label="Settings Icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33-1.83 1.65 1.65 0 0 0-2.86-.68 1.65 1.65 0 0 0-1.33-2.42V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v4.07a1.65 1.65 0 0 0-1.33 2.42 1.65 1.65 0 0 0-2.86.68A1.65 1.65 0 0 0 4.6 15c-1.3.43-2.3 1.8-2.6 3.48-.3 1.68-.1 3.42.5 5.04L1.7 21l3.5-.5a2 2 0 0 0 2.8 1.45l.9 1.6a2 2 0 0 0 3.2 0l.9-1.6a2 2 0 0 0 2.8-1.45l3.5.5-1.4-1.52c.6-1.62.8-3.36.5-5.04z"/></svg>
+                        </div>
+                        <h3>Web Accessibility Audit</h3>
+                        <p>Conducted a full accessibility audit on a public-facing website, implementing fixes for WCAG 2.1 compliance.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <aside class="sidebar-info">
+                <section id="about" class="about-section">
+                    <h3>About Me</h3>
+                    <img src="https://placehold.co/150x150/e0e0e0/333333?text=CB" alt="Profile picture of Chima Ben" class="profile-pic">
+                    <p>I'm Chima, a passionate web developer based in Port Harcourt, Nigeria. I specialize in building robust and scalable web applications with a focus on clean code, responsive design, and exceptional user experience.</p>
+                </section>
+                <section id="contact" class="contact-section">
+                    <h3>Get in Touch</h3>
+                    <p>I am currently available for new projects and collaborations. Let's build something amazing together!</p>
+                    <ul>
+                        <li>Email: chima.dev@email.com</li>
+                        <li>Phone: +234 800 123 4567</li>
+                        <li>Location: Port Harcourt, Nigeria</li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+        
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <p>&copy; 2024 Chima Ben. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
